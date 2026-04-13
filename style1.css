@@ -1,0 +1,376 @@
+h1 {
+    text-align: center;
+    font-family: "Papyrus", fantasy ;
+    font-size: 40px;
+    
+    
+}
+.home-page {
+    background-image: url("https://i.pinimg.com/736x/63/62/7f/63627f5a66a92a604128897c041770a8.jpg") ;
+    background-size: cover;
+    background-position: center;
+
+}
+.aboutme h2 {
+    font-size: 25px;
+}
+.pic_aboutme{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;    /* Align items to the left, which is the default */
+    width: 80%;       /* Set the width of the container */
+    margin: auto;           /* Center the container horizontally on the page */
+
+}
+.mypic {
+    
+    flex: 0 0 300px;        /* Fixed width for the image container */
+    margin-right: 8px;       /* Space between the image container and the paragraph container */
+}
+.mypicright {
+    width: 100%;       /* Image fills the width of its container */
+    height: auto;
+}
+
+.aboutme {
+    flex: 1;      /* Allow the paragraph container to grow and fill available space */
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    
+    
+    
+    
+    
+}
+.p1 {
+    max-width: 700px;   /* Set a maximum width for the paragraph */
+    text-align: left;
+    font-family: "Papyrus", fantasy;
+    font-size: 18px;
+    margin-bottom: 70px;
+    
+    
+}
+.icons h4{
+    font-size: 25px;
+
+}
+.icons {
+    
+    text-align: left;
+    font-size: 18px; 
+    
+
+}
+
+.icon-large {
+    font-size: 40px;
+}
+
+.email, .phone, .linkedin {
+    margin-bottom: 5px;     /* Space between each contact item */
+    
+}
+
+
+.hobbies_title {
+    display: flex;
+    justify-content:flex-end;
+    width: 80%;
+    margin: auto;
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(233, 200, 188, 0.7);;
+}
+.hobbytitle {
+    text-align: right;     
+    flex:1;
+    
+}
+.hobbypara {
+    max-width: 700px;
+    text-align: right;     
+    margin-left: auto;
+    
+}
+.hobby_image {
+    flex-shrink: 0;          /* Prevent the image from shrinking */
+    width: 150px;            /*  width of the image container */
+    height: 150px;           /*  height of the image container */
+    border-radius: 50%;      /* Make the image container a circle */
+    overflow: hidden;        /* Hide any overflow outside the circle */
+    margin-right: 10px;      /* Add space to the right of the image */
+}
+.hobby_image img {
+    width: 100%;             /* Image fills the width of its container */
+    height: 100%;            /* Image fills the height of its container */
+    object-fit: cover;       /* Ensures the image covers the container area */
+    object-position: center; /* Centers the image within the container */
+}
+.button {
+    display: inline-block; 
+    padding: 10px 20px; /* Adds space inside the button */
+    margin: 30px; /* Adds space between buttons */
+    font-size: 16px; 
+    color: black; 
+    background-color: lightcoral; /* Button background color */
+    text-align: center; /* Centers text */
+    text-decoration: none; /* Removes underline from links */
+    border-radius: 5px; /* Rounded corners */
+    border: 20px black; 
+}
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; 
+    display: flex; /* Aligns items horizontally */
+    justify-content: center; /* Centers the menu */
+}
+nav ul li {
+    margin: 0 20px; /* Adds space between menu items */
+}
+.picproj2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;    /* Align items to the left, which is the default */
+    width: 90%;       /* Set the width of the container */
+    margin: auto;           /* Center the container horizontally on the page */
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+
+}
+.project1 h7{
+    font-size: 25px;
+}
+.project2 h8 {
+    font-size: 25px;
+}
+
+
+.treepic {
+    
+    flex: 0 0 500px;        /* Fixed width for the image container */
+    margin-right: 8px;       /* Space between the image container and the paragraph container */
+}
+.treepicright {
+    width: 100%;       /* Image fills the width of its container */
+    height: auto;
+}
+.logisimpic_proj1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;    /* Align items to the left, which is the default */
+    width: 90%;       /* Set the width of the container */
+    margin: auto;           /* Center the container horizontally on the page */
+    margin-bottom: 60px;
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+
+}
+.logisimpic {
+    
+    flex: 0 0 500px;        /* Fixed width for the image container */
+    margin-right: 8px;       /* Space between the image container and the paragraph container */
+}
+.logisimpicleft {
+    width: 100%;       /* Image fills the width of its container */
+    height: auto;
+}
+.otherproj{
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+.otherproj h9 {
+    font-size: 17px;       /* Adjust size for the main title */
+    margin-bottom: 20px;   /* Space below the main title */
+}
+
+/* Style for the project titles */
+.otherproj h10 {
+    font-size: 17px;       /* Adjust size for the project titles */
+    margin-top: 20px;      /* Space above each project title */
+    margin-bottom: 5px;    /* Space below each project title */
+}
+.otherproj .tic,
+.otherproj .hangman {
+    margin-bottom: 20px;
+}
+.portpg {
+    background-image: url("https://i.pinimg.com/564x/02/b6/75/02b67500977bb71bd8792db0358e9619.jpg") ;
+    background-size: cover;
+    background-position: center;
+
+}
+.resume {
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Papyrus", fantasy;
+    font-weight:bolder;
+    font-size: 18px;
+}
+.resume h13 {
+    font-size: 23px;
+}
+
+.skills_pic{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;    /* Align items to the left, which is the default */
+    width: 80%;       /* Set the width of the container */
+    margin: auto;           /* Center the container horizontally on the page */
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.skillspic {
+    
+    flex: 0 0 300px;        /* Fixed width for the image container */
+    margin-left: 30px;       /* Space between the image container and the paragraph container */
+}
+.skillspicright {
+    width: 100%;       /* Image fills the width of its container */
+    height: auto;
+}
+.skills h14 {
+    font-size: 25px;
+}
+.interest{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.interestpara h15 {
+    font-size: 25px;
+}
+.qualpg {
+    background-image: url("https://i.pinimg.com/564x/a5/f2/0d/a5f20d8e7e258fd0549b4010dcf9a27e.jpg") ;
+    background-size: cover;
+    background-position: center;
+
+}
+.volunteering {
+    width: 500px; /* Set the width of the container */
+    height: 100vh; /* Full height of the viewport */
+    position:relative; /* Position the container fixed on the left side */
+    left: 0; /* Align it to the left side */
+    top: auto; /* Align it to the top */
+    
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    
+    
+}
+
+.volun_pic{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;    /* Align items to the left, which is the default */
+    width: 80%;       /* Set the width of the container */
+    margin: auto;           /* Center the container horizontally on the page */
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    
+
+}
+
+.onlypic {
+    
+    flex: 0 0 400px;        /* Fixed width for the image container */
+    margin-left: 30px;       /* Space between the image container and the paragraph container */
+    margin-top: 40px;
+}
+.onlypicright {
+    width: 100%;       /* Image fills the width of its container */
+    height: auto;
+}
+.garden h20 {
+    font-size: 25px;
+}
+.foodbank h21 {
+    font-size: 25px;
+    
+}
+
+.tutoring {
+    display: flex;
+    justify-content:flex-end;
+    width: 70%;
+    margin: auto;
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.mentor {
+    text-align: right;     
+    flex:1;
+    
+}
+.mentorpara {
+    max-width: 700px;
+    text-align: right;     
+    margin-left: auto;
+    
+}
+.mentor h22 {
+    font-size: 25px;
+}
+.servicepg {
+    background-image: url("https://i.pinimg.com/736x/53/37/5e/53375ef247e7f303f6b26dd327389c23.jpg") ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.ethical-concerns{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.prompt-box{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    font-family: "Papyrus", fantasy;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgba(233, 200, 188, 0.7);
+
+}
+.AIpg {
+    background-image: url("https://i.pinimg.com/564x/3f/30/90/3f3090185407d16df31f9f3078e1e77f.jpg") ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+

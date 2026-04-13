@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Pg2 </title>
+    </head>
+    <body class = portpg>
+        <h1> Portfolio </h1>
+        <link rel = "stylesheet" href = "style1.css">
+        <nav>
+            <ul>
+                <li><a href = "Landingpg.html" class = button>Home</a></li>
+                <li><a href = "Portfolio.html" class = button>Portfolio</a></li>
+                <li><a href = "qualifications.html" class = button>Qualifications</a></li>
+                <li><a href = "service.html" class = button>Service</a></li>
+                <li><a href = "AI.html" class = button>AI</a></li>
+            </ul>
+        </nav>
+        <div class = logisimpic_proj1>
+            <div class = logisimpic> 
+                <img src = "logisimpic.jpg" class = logisimpicleft>
+            </div>
+
+            <div class = project1>
+                <h7> Project 1: Building a RISC-V Style Machine </h7>
+                <p class = comp> This team project involved designing and building our own processor using the Y86-64 instruction set architecture (ISA) to gain a deeper understanding of the inner workings of microprocessors, particularly how they execute programs. We used Logisim-evolution, a digital logic simulator, to implement and visualize the processor’s operations. Our design followed the Von Neumann architecture, which is characterized by the use of a single memory space for both instructions and data, allowing for streamlined data and instruction handling. 
+                The project was divided into six key stages: Fetch - processor retrieves the next instruction from the instruction memory based on the Program Counter, Decode - The instruction is then decoded to determine what operations are required. This involves reading from the register file, Execute - The ALU performs the specified operation, Memory - Some instructions require interaction with the data memory. In this stage, the processor may read data from or write data to the RAM, Write Back - The results of the ALU operations or memory fetches are written back to the register file, and PC Update - The Program Counter is updated to point to the next instruction. 
+                We began by working with a predefined set of instructions known as the Instruction Set Architecture (ISA). The processor first fetches instructions from the "instruction memory" sequentially. Each instruction is then decoded and executed. Some instructions require the processor to fetch data from the "data memory" and write results back to the data memory during execution. We implemented each stage independently, ensuring proper functionality before integrating them. The stages were synchronized using clock cycles, which was challenging, as certain stages required precise timing and delays to ensure that outputs were ready for subsequent stages.
+                Finally, we tested our processor with three different assembly programs that we wrote: a Palindrome Checker, a Bubble Sort algorithm, and a program to sum the first 100 numbers. These tests covered a range of instruction types to help us validate the accuracy and efficiency of our processor design.
+                </p>
+                <a href = "https://www.geeksforgeeks.org/computer-organization-von-neumann-architecture/"> Learn moree about Von Neumann Architecture!</a>
+            
+            </div>
+        </div>
+        <div class = picproj2> 
+            <div class = project2>
+            <h8> Project 2: Mental Health Prediction Model</h8>
+            <p class = AIModel> This group project, developed in Python, served as our introduction to Machine Learning. We built a robust AI model that incorporated both supervised and unsupervised learning techniques, along with data analysis, to generate a Decision Tree Classifier. After extensive training, our model achieved an accuracy of 70.63%. </p>
+            <a href = "Model.pdf"> Click here to view my AI model and Code</a>
+
+            </div>
+            <div class = treepic> 
+                <img src = "treepic.jpg" class = treepicright>
+            </div>
+            
+        </div>
+        
+        <div class = otherproj>
+            <h9> Other Projects</h9>
+            <p> Tic Tac Toe | Python </p>
+            <p class = tic> Implemented graphics programming, libraries, and consolidating data with classes to accommodate user input and create an interactive tic tac toe game against the computer.</p>
+            <h11> Simple Hangman | Python</h11>
+            <p class = hangman> Employed control structures, libraries, and user input to create an interactive game. </p>
+            <a href = "Hangman.py"> Click here to view my Hangman Code</a>
+            <a href = "guessing_game.py"> Click here to view my Guessing Game Code</a>
+
+        </div>
+    </body>
+    
+</html>
