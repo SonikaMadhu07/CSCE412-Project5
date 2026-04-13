@@ -3,7 +3,11 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "No build needed for static site"
+      - echo "Deploying static site"
+
+  post_build:
+    commands:
+      - aws cloudfront create-invalidation --distribution-id E3FI9W33EEJ5MS --paths "/*"
 
 artifacts:
   files:
